@@ -4,7 +4,7 @@ import os
 desktop_path = os.path.expanduser("~/Desktop")
 
 while True:
-    input_filename = input("\ncole aqui o local do arquivo csv (ou digite 'exit' para fechar): ")
+    input_filename = input("cole aqui o local do arquivo csv (ou digite 'exit' para fechar): ")
 
     if input_filename.lower() == "exit":
         print("Fechando o programa.")
